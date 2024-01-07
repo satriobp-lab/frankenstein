@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- State ketika tombol tidak aktif atau tidak sedang dihover -->
+    <item android:state_enabled="false" android:drawable="@color/button_disabled" />
+    <!-- State ketika tombol dihover atau di-tap -->
+    <item android:state_pressed="true" android:drawable="@color/button_pressed" />
+    <!-- State default atau ketika tombol aktif tanpa interaksi -->
+    <item android:drawable="@color/button_default" />
+</selector>

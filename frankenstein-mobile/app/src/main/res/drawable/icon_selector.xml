@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- State ketika ImageView sedang di-hover -->
+    <item android:state_hovered="true">
+        <objectAnimator
+            android:propertyName="backgroundTint"
+            android:valueTo="@color/icon_pressed"
+            android:valueType="colorType" />
+    </item>
+
+    <!-- State ketika ImageView tidak dalam keadaan di-hover -->
+    <item>
+        <objectAnimator
+            android:propertyName="backgroundTint"
+            android:valueTo="@color/icon_default"
+            android:valueType="colorType" />
+    </item>
+</selector>

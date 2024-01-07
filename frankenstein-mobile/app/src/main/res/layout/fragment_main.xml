@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MainFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/backgroundMain"
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="268dp"
+        android:src="@drawable/mainbackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+<!--    Play Design    -->
+    <TextView
+        android:id="@+id/titleApp"
+        android:layout_width="115dp"
+        android:layout_height="45dp"
+        android:fontFamily="@font/momoniac"
+        android:text="Frankenstein"
+        android:textAlignment="center"
+        android:textColor="#16598F"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.021" />
+
+    <View
+        android:layout_width="360dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="52dp"
+        android:background="#16598F"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/ProfileNav"
+        android:layout_width="34dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/profile_navbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.922"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/welcomingUsers"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:fontFamily="@font/inter_bold"
+        android:textStyle="bold"
+        android:text="Hi, Mr/Mrs.   Selamat Datang..."
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.097" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:fontFamily="@font/inter"
+        android:text="Lindungi Masa Depan Anak !                                                    Deteksi Normal-Abnormal Penis, Kesempurnaan dari Setiap Sudutnya..."
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.268"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.17" />
+
+    <TextView
+        android:id="@+id/titleDeteksi"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:fontFamily="@font/cairo_bold"
+        android:text="Deteksi Sekarang"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.129"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.243" />
+
+    <TextView
+        android:id="@+id/rectangleDeteksi"
+        android:layout_width="170dp"
+        android:layout_height="250dp"
+        android:background="@drawable/rectangle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.422" />
+
+    <TextView
+        android:id="@+id/rectangleJadwal"
+        android:layout_width="170dp"
+        android:layout_height="250dp"
+        android:background="@drawable/rectangle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.923"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.422" />
+
+    <TextView
+        android:id="@+id/titleArtikel"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:fontFamily="@font/cairo_bold"
+        android:text="Artikel Normal &amp; Abnormal Penis"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.268"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.651" />
+
+    <ImageView
+        android:id="@+id/imagePenis"
+        android:layout_width="169dp"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/edukasi_2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.116"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.355"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/descriptionDeteksi"
+        android:layout_width="150dp"
+        android:layout_height="65dp"
+        android:fontFamily="@font/cairo"
+        android:scaleType="fitXY"
+        android:text="Step 1: Deteksi dari ketiga sisi penis: sisi atas, sisi bawah, dan sisi samping."
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.511" />
+
+    <Button
+        android:id="@+id/buttonDeteksi"
+        android:layout_width="130dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="432dp"
+        android:background="@drawable/button_selector"
+        android:fontFamily="@font/alata"
+        android:text="Lakukan Deteksi"
+        android:textSize="10sp"
+        app:backgroundTint="@null"
+        app:cornerRadius="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.171"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/gambarDokter"
+        android:layout_width="169dp"
+        android:layout_height="130dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/dokter_dan_anak_1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.919"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.344"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/descriptionJadwalTemu"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:fontFamily="@font/cairo"
+        android:scaleType="fitXY"
+        android:text="Step 2: Buat jadwal temu dengan Dokter Ahli."
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.884"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonJadwal"
+        android:layout_width="130dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="432dp"
+        android:background="@drawable/button_selector"
+        android:fontFamily="@font/alata"
+        android:text="Buat Jadwal"
+        android:textSize="10sp"
+        app:backgroundTint="@null"
+        app:cornerRadius="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.855"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- syntax for HorizontalScrollView -->
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="352dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="60dp"
+        android:foregroundGravity="center_vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.585"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <!-- child view -->
+        <LinearLayout
+            android:layout_width="1000dp"
+            android:layout_height="200dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:orientation="horizontal">
+
+            <!-- LinearLayout children -->
+
+            <!-- New ConstraintLayout for ImageView and TextView Artikel 1 -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="200dp"
+                android:layout_height="200dp">
+                <ImageView
+                    android:id="@+id/artikelGambar1"
+                    android:layout_width="180dp"
+                    android:layout_height="150dp"
+                    android:layout_marginBottom="48dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/edukasi"
+                    android:text="Coba"
+                    android:textAlignment="center"
+                    android:textColor="#0F9D58"
+                    android:textSize="30sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/descriptionArtikel1"
+                    android:layout_width="180dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:text="Kenali Tipe-tipe Hipospadia"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    android:fontFamily="@font/cairo"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- New ConstraintLayout for ImageView and TextView Artikel 2 -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="200dp"
+                android:layout_height="200dp">
+                <ImageView
+                    android:id="@+id/artikelGambar2"
+                    android:layout_width="180dp"
+                    android:layout_height="150dp"
+                    android:layout_marginBottom="48dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/edukasi_2"
+                    android:text="Coba"
+                    android:textAlignment="center"
+                    android:textColor="#0F9D58"
+                    android:textSize="30sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/descriptionArtikel2"
+                    android:layout_width="180dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:text="Perbedaan Normal dan Abnormal"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    android:fontFamily="@font/cairo"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- New ConstraintLayout for ImageView and TextView Artikel 3 -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="200dp"
+                android:layout_height="200dp">
+                <ImageView
+                    android:id="@+id/artikelGambar3"
+                    android:layout_width="180dp"
+                    android:layout_height="150dp"
+                    android:layout_marginBottom="48dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/edukasi_3"
+                    android:text="Coba"
+                    android:textAlignment="center"
+                    android:textColor="#0F9D58"
+                    android:textSize="30sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/descriptionArtikel3"
+                    android:layout_width="180dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:text="Aprilia Manganang Alami Hipospadia"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    android:fontFamily="@font/cairo"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+<!--  Bottom Nav  -->
+    <TextView
+        android:id="@+id/bottomBox"
+        android:layout_width="420dp"
+        android:layout_height="55dp"
+        android:background="@drawable/box"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/iconHome"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/home"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.247"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.99" />
+
+    <ImageView
+        android:id="@+id/iconAbout"
+        android:layout_width="45dp"
+        android:layout_height="43dp"
+        android:src="@drawable/about"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.99" />
+
+    <ImageView
+        android:id="@+id/iconUser"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/user"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.744"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.99" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

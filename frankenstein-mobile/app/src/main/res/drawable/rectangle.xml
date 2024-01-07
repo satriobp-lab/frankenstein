@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background color with drop shadow -->
+    <item>
+        <layer-list>
+            <!-- Drop shadow -->
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="#33000000"/> <!-- Warna bayangan (hitam dengan opasitas rendah) -->
+                </shape>
+            </item>
+            <!-- Background color -->
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="#FFFFFF"/> <!-- Warna latar belakang -->
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <!-- Stroke -->
+    <item android:top="1dp" android:right="1dp" android:left="1dp" android:bottom="1dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent"/> <!-- Warna transparan untuk latar belakang agar dapat melihat background color -->
+            <stroke
+                android:width="2dp"
+                android:color="#FFFFFF"/> <!-- Ketebalan stroke dan warna stroke putih -->
+        </shape>
+    </item>
+    <!-- Gradient untuk efek 3D -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#FDFFFE"/><!-- Warna cahaya gradient -->
+            android:centerColor="#ffffff" <!-- Warna tengah gradient -->
+            android:endColor="#BBBBBB" <!-- Warna bayangan gradient -->
+            android:angle="225"/> <!-- Sudut gradient untuk efek cahaya dan bayangan -->
+        </shape>
+    </item>
+</selector>
